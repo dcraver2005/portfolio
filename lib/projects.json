@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Personal Portfolio Website",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Built this personal portfolio site from scratch using HTML, CSS, and JavaScript modules. Features dynamic project rendering, dark mode, and data-driven content."
+  },
+  {
+    "title": "Data Visualization Dashboard",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Interactive dashboard for exploring large-scale datasets using D3.js. Created as part of DSC 106 (Data Visualization) at UCSD."
+  },
+  {
+    "title": "Soccer Match Analytics",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Analyzed player tracking data from professional soccer matches to derive positional heatmaps and passing network visualizations."
+  },
+  {
+    "title": "Machine Learning Pipeline",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "End-to-end ML pipeline for classifying user engagement. Covered data cleaning, feature engineering, model training, and evaluation for DSC 80."
+  },
+  {
+    "title": "Recommender System Study",
+    "year": "2024",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Comparative study of collaborative filtering and content-based recommendation models on a movie ratings dataset."
+  },
+  {
+    "title": "SQL Analytics Project",
+    "year": "2023",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Designed a relational schema and wrote complex analytics queries against a simulated e-commerce database for DSC 100."
+  },
+  {
+    "title": "Statistical Inference Report",
+    "year": "2023",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Applied hypothesis testing and bootstrap methods to investigate NBA shot efficiency over the past decade."
+  },
+  {
+    "title": "Python Data Analysis Library",
+    "year": "2023",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Small Python package exposing helpers for tidy-data transforms and summary statistics on top of pandas."
+  },
+  {
+    "title": "Intro to Programming Game",
+    "year": "2022",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Text-based adventure game written in Python as a final project for an introductory CS course. Emphasized OOP and modular design."
+  },
+  {
+    "title": "Community College Capstone",
+    "year": "2022",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Capstone research project exploring attendance patterns at a community college using survey data and regression analysis."
+  },
+  {
+    "title": "Personal Finance Tracker",
+    "year": "2021",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Google Sheets + Apps Script tool I built to categorize transactions and visualize monthly spending trends."
+  },
+  {
+    "title": "Soccer Training Log",
+    "year": "2021",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Placeholder project — a self-built tracker for recording daily training sessions, sleep, and match performance metrics."
+  }
+]

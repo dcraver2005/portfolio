@@ -5,9 +5,7 @@ function $$(selector, context = document) {
 }
 
 // Step 3.1: Automatic navigation menu
-const BASE_PATH = (location.hostname === "localhost" || location.hostname === "127.0.0.1")
-  ? "/"
-  : "/portfolio/";
+const BASE_PATH = location.hostname.endsWith("github.io") ? "/portfolio/" : "/";
 
 let pages = [
   { url: '', title: 'Home' },
@@ -71,3 +69,36 @@ select.addEventListener('input', function (event) {
   document.documentElement.style.setProperty('color-scheme', event.target.value);
   localStorage.colorScheme = event.target.value;
 });
+
+// Step 1.2
+export async function fetchJSON(url) {
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch projects: ${response.statusText}`);
+    }
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error('Error fetching or parsing JSON data:', error);
+  }
+}
+
+// Step 1.4
+export function renderProjects(project, containerElement, headingLevel = 'h2') {
+  containerElement.innerHTML = '';
+  for (const p of project) {
+    const article = document.createElement('article');
+    article.innerHTML = `
+        <${headingLevel}>${p.title}</${headingLevel}>
+        <img src="${p.image}" alt="${p.title}">
+        <p>${p.description}</p>
+    `;
+    containerElement.appendChild(article);
+  }
+}
+
+// Step 3.2
+export async function fetchGitHubData(username) {
+  return fetchJSON(`https://api.github.com/users/${username}`);
+}
