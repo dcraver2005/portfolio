@@ -109,6 +109,7 @@ form button {
   overflow: visible;
 }
 
+/* Step 5.1: smooth hover fade on wedges */
 #projects-pie-plot path {
   transition: 300ms;
   cursor: pointer;
@@ -118,6 +119,7 @@ form button {
   opacity: 0.5;
 }
 
+/* Step 5.2: highlighted (selected) wedge + legend item */
 .selected {
   --color: oklch(60% 45% 0) !important;
 }
@@ -126,12 +128,14 @@ form button {
   fill: var(--color);
 }
 
+/* Step 2.3: side-by-side container */
 .container {
   display: flex;
   align-items: center;
   gap: 2em;
 }
 
+/* Step 2.2: legend */
 .legend {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
@@ -158,6 +162,7 @@ form button {
   border-radius: 50%;
 }
 
+/* Step 4.1: search bar */
 .searchBar {
   width: 100%;
   padding: 0.5em;

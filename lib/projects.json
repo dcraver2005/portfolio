@@ -1,74 +1,74 @@
 [
   {
-    "title": "Personal Portfolio Website",
+    "title": "Machine Learning Analysis of U.S. Power Grid Outages",
     "year": "2025",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Built this personal portfolio site from scratch using HTML, CSS, and JavaScript modules. Features dynamic project rendering, dark mode, and data-driven content."
+    "description": "Analyzed 1,515 major outages and developed performance metrics to quantify outage severity, duration, and regional risk patterns. Trained Logistic Regression and Decision Tree models with scikit-learn Pipelines and GridSearchCV, and ran a 5,000-trial fairness analysis revealing significant disparities across NERC regions (p=0.0016)."
   },
   {
-    "title": "Data Visualization Dashboard",
+    "title": "AI Powered Community College Transfer Planner",
     "year": "2025",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Interactive dashboard for exploring large-scale datasets using D3.js. Created as part of DSC 106 (Data Visualization) at UCSD."
+    "description": "Built an AI-driven academic pathway generator using dependency graphs to optimize student course sequencing and identify key bottlenecks. Designed ETL pipelines transforming articulation rules into structured data and created APIs that surface completion timelines, requirement fulfillment metrics, and optimal-term recommendations."
   },
   {
-    "title": "Soccer Match Analytics",
+    "title": "College Research Automation Platform",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Developed an analytics platform for GetItWrite College Advising supporting data-driven decision-making for dozens of users. Integrated the College Scorecard API to analyze tuition, acceptance rate, financial aid, and student outcomes, and implemented Google OAuth with automated Sheets workflows."
+  },
+  {
+    "title": "PDF Automation for College Counseling Workflows",
+    "year": "2025",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Engineered a PDF-extraction pipeline (PDFPlumber + Pandas) to automatically pull key metrics from College Kickstart reports. Built a Chrome Extension that processes PDFs and extracts college lists, acceptance categories, and reach/match/safety designations, integrating clean datasets directly into Google Sheets to eliminate hours of manual data entry."
+  },
+  {
+    "title": "Placeholder Project A",
     "year": "2024",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Analyzed player tracking data from professional soccer matches to derive positional heatmaps and passing network visualizations."
+    "description": "Placeholder description — to be replaced with a real project."
   },
   {
-    "title": "Machine Learning Pipeline",
+    "title": "Placeholder Project B",
     "year": "2024",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "End-to-end ML pipeline for classifying user engagement. Covered data cleaning, feature engineering, model training, and evaluation for DSC 80."
+    "description": "Placeholder description — to be replaced with a real project."
   },
   {
-    "title": "Recommender System Study",
+    "title": "Placeholder Project C",
     "year": "2024",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Comparative study of collaborative filtering and content-based recommendation models on a movie ratings dataset."
+    "description": "Placeholder description — to be replaced with a real project."
   },
   {
-    "title": "SQL Analytics Project",
+    "title": "Placeholder Project D",
     "year": "2023",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Designed a relational schema and wrote complex analytics queries against a simulated e-commerce database for DSC 100."
+    "description": "Placeholder description — to be replaced with a real project."
   },
   {
-    "title": "Statistical Inference Report",
+    "title": "Placeholder Project E",
     "year": "2023",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Applied hypothesis testing and bootstrap methods to investigate NBA shot efficiency over the past decade."
+    "description": "Placeholder description — to be replaced with a real project."
   },
   {
-    "title": "Python Data Analysis Library",
+    "title": "Placeholder Project F",
     "year": "2023",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Small Python package exposing helpers for tidy-data transforms and summary statistics on top of pandas."
+    "description": "Placeholder description — to be replaced with a real project."
   },
   {
-    "title": "Intro to Programming Game",
+    "title": "Placeholder Project G",
     "year": "2022",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Text-based adventure game written in Python as a final project for an introductory CS course. Emphasized OOP and modular design."
+    "description": "Placeholder description — to be replaced with a real project."
   },
   {
-    "title": "Community College Capstone",
+    "title": "Placeholder Project H",
     "year": "2022",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Capstone research project exploring attendance patterns at a community college using survey data and regression analysis."
-  },
-  {
-    "title": "Personal Finance Tracker",
-    "year": "2021",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Google Sheets + Apps Script tool I built to categorize transactions and visualize monthly spending trends."
-  },
-  {
-    "title": "Soccer Training Log",
-    "year": "2021",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Placeholder project — a self-built tracker for recording daily training sessions, sleep, and match performance metrics."
+    "description": "Placeholder description — to be replaced with a real project."
   }
 ]
